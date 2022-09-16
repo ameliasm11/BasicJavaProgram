@@ -1,4 +1,4 @@
-package Arrays;
+package Package;
 
 public class CountVowels {
 

@@ -1,4 +1,4 @@
-package Condition;
+package Package;
 
 public class CountChar {
 
