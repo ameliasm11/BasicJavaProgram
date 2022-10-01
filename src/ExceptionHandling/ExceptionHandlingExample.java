@@ -1,4 +1,4 @@
-/*Exception is an event which will terminate program unexpectedly
+/*Exception is an abnormal event which will terminate program.
  * Type of exceptions:
  * - Checked exceptions: exceptions which are identified by the java compiler
  * 		Ex: IOException, FileNotFoundException, etc...

@@ -1,0 +1,26 @@
+Array limitation
+1. fixed in size -> ArrayList
+2. can hold same data type elements, -> Object
+
+ArrayList --> Array is data structure in java
+ArrayList has not limit (we can use any number of elements)
+we can also store any kind of data type elements
+
+int a[]=new int[5]; //normal array declaration
+
+ArrayList al=new ArrayList(); //allow all the data type elements
+
+ArrayList<String> al = new ArrayList<String>(); //allows only string type data elements
+
+ArrayList<Integer> al = new ArrayList<Integer>(); //allows only integer type data elements
+
+Hash Map
+--------------
+HashMap contains key and value
+Key and their value combinely called as keypair
+
+EPMNAME amel --> keypair
+EMPNO 123
+DEPTNO 2
+EMPNAME, EMPNO, DEPNO ---> Keys
+amel, 123, 2 --> values
