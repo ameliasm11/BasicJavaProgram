@@ -42,11 +42,17 @@ public class Operators {
 		
 		c=100;
 		//c=c+1; 
-		c++; //c=c+1; increment operator
-		c--; //c=c-1; decrement operator
+		c++; //c=c+1; postfix increment operator
+		c--; //c=c-1; postfix decrement operator
+		++c; //c=c+1; prefix increment operator
+		--c; //c=c-1; prefix decrement operator
 		c+=5; //c=c+5;
 		c-=5; //c=c-5;
-		System.out.println(c); 
+		System.out.println("original value: " +c); 
+		System.out.println(c++);
+		System.out.println(c--);
+		System.out.println(c+=5);
+		System.out.println(c-=5);
 	}
 
 }
